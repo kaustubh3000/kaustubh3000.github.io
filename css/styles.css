@@ -1,0 +1,106 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background-color: #509BCE;
+    color: floralwhite;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px auto;
+    column-rule: #0f0f0f;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #28668F;
+}
+
+.navbar-brand h1{
+    font-size: 1.2em;
+    font-family: 'Oxygen', sans-serif;}
+
+/* Footer */
+
+footer{
+    background-color: #F7F7F7;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+
+}
+
+footer hr{
+    background-color: #00acee;
+    width: 80%;
+}
+
+/* NeoMorphic style Icons*/
+#contact-details{
+    display: flex;
+    justify-content: center;
+}
+#contact-details a{
+    display: flex;
+    /*background-color:  #FFF;*/
+    height: 60px;
+    width: 60px;
+    margin: 0 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    6px 6px 10px -1px rgba(225, 225, 225, 0.7);
+}
+
+footer #contact-details a{
+    font-size: 22px;
+    color: black;
+    transition: transform 0.5s;
+
+}
+
+#contact-details a:hover, #contact-details a:focus{
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset 4px 4px 6px -1px rgba(225, 225, 225, 0.7),
+                0.5px 0.5px 0px rgba(225, 225, 225, 1),
+                0.5px 0.5px 0px rgba(225, 225, 225, 0.7);
+    
+    border: 1px solid rgba(0, 0, 0, 0);
+    transform: translateY(2px);
+}
+
+#contact-details a:hover i{
+    transform: scale(0.90);
+}
+a:hover .fa-twitter, a:focus .fa-twitter, a:active .fa-twitter{
+    color: #00acee;
+}
+a:hover .fa-linkedin, a:focus .fa-linkedin, a:active .fa-linkedin{
+    color: #0072b1;
+}
+a:hover .fa-github , a:focus .fa-github, a:active .fa-github {
+    color: #000;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 1.1em;
+}
