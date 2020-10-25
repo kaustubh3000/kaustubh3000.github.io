@@ -59,9 +59,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-details"><span aria-hidden="true" class="fa fa-address-card fa-lg"
-                                title="contact"></span>
-                            <span class="sr-only">contact</span> Contact</a>
+                        <a role="button" class="nav-link" data-toggle="modal" data-target="#contact">
+                            <span aria-hidden="true" class="fa fa-address-card fa-lg" title="contact"></span>
+                            <span class="sr-only">contact</span> Contact
+                        </a>
                     </li>
 
                 </ul>
@@ -70,31 +71,91 @@
         </div>
     </nav>
 
-    <header>
+    <!-- Contact Modal -->
+    <div id="contact" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header bg-secondary">
+                    <h4 class="modal-title text-white">Contact</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-8 offset-2">
+                                <a class="btn btn-block btn-primary" href="./schedule.html">
+                                    Check Schedule
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="form-group row">
+                            <div class="col-8 offset-2">
+                                <div class="btn-group btn-block" role="group">
+                                    <a role="button" class="btn btn-success" href="tel:+91212345678"><i class="fa fa-phone"></i>
+                                        Call</a>
+                                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                                    <a role="button" class="btn btn-danger" href="mailto:no-reply@kaustubh.com">
+                                        <i class="fa fa-envelope-o"></i> Email</a>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-8">
+                    <h2>Photo Gallery</h2>
+                </div>
+            </div>
+        </div>
     </header>
 
 
     <div class="container">
 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-12 col-md-6 mb-3">
-                <div class="card" style="height: 18rem;">
-                    <h5 class="card-header bg-success text-white">Interests</h5>
+        <div class="row row-content">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="./img/new-york.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <ul>
-                            <li>Artificial Intelligence</li>
-                        </ul>
+                        <h5 class="card-title">New York</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-6 mb-3">
-                <div class="card" style="height: 18rem;">
-                    <h5 class="card-header bg-primary text-white">Skills</h5>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card text-white bg-danger">
+                    <img class="card-img-top" src="./img/photo1.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <ul>
-                            <li>Python</li>
-                        </ul>
+                        <h5 class="card-title">Gangsta</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card text-white bg-success">
+                    <img class="card-img-top" src="./img/photo2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Buttterfly</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card text-white bg-info">
+                    <img class="card-img-top" src="./img/new-york.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">City</h5>
                     </div>
                 </div>
             </div>
