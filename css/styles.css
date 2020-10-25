@@ -34,8 +34,37 @@ body{
 }
 
 .navbar-brand h1{
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: 'Oxygen', sans-serif;}
+
+
+/* photo */
+
+#main-photo{
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+
+   
+}
+#photo-container{
+    text-align: center;
+}
+
+/* Carousel */
+.carousel{
+    background-color: #512DA8;
+}
+
+.carousel-item{
+    height: 24rem;
+}
+
+.carousel-item img{
+    position: relative;
+    width: auto;
+    min-height: auto;
+}
 
 /* Footer */
 
