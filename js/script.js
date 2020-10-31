@@ -32,4 +32,15 @@ $(document).ready(function (){
             $('#navbar-button').children('span').addClass('navbar-toggler-icon');
         }
     });
+
 });
+
+
+// $(window).scroll(function () {
+//     var screenWidth = window.innerWidth;
+//     if (screenWidth < 992) {
+//         $(".navbar-collapse").collapse('hide');
+//         $('#navbar-button').children('span').removeClass('fa fa-times fa-lg');
+//         $('#navbar-button').children('span').addClass('navbar-toggler-icon');
+//     }
+// });
