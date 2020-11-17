@@ -14,8 +14,9 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background-color: #509BCE;
+    background-color: #28668F;
     color: floralwhite;
+    border-radius: 0px;
 }
 
 .address{
@@ -27,6 +28,11 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, .5);
 }
 
 .navbar-dark {
@@ -35,12 +41,17 @@ body{
 
 .navbar-brand h1{
     font-size: 1.4em;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Fondamento', cursive;
 }
 
 #navbar-button{
     width: 60px;
     height: 40px;
+}
+
+.close{
+    font-size: 2em;
+    color: white;
 }
 
 
