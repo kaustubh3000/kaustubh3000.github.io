@@ -71,20 +71,6 @@ body{
     text-align: center;
 }
 
-/* Carousel */
-.carousel{
-    background-color: #512DA8;
-}
-
-.carousel-item{
-    height: 24rem;
-}
-
-.carousel-item img{
-    position: relative;
-    width: auto;
-    min-height: auto;
-}
 
 /* Footer */
 
