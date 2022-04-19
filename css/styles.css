@@ -104,6 +104,18 @@ body{
 
 /* Footer */
 
+.footer {
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
 footer{
     background-color: #F7F7F7;
     margin: 0px auto;
@@ -112,16 +124,18 @@ footer{
 }
 
 footer hr{
-    background-color: #00acee;
-    width: 80%;
+    background-color: #023E8A;
+    width: 100%;
 }
 
+
+
 /* NeoMorphic style Icons*/
-#contact-details{
+#footer-contact{
     display: flex;
     justify-content: center;
 }
-#contact-details a{
+#footer-contact a{
     display: flex;
     /*background-color:  #FFF;*/
     height: 60px;
@@ -135,14 +149,14 @@ footer hr{
     6px 6px 10px -1px rgba(225, 225, 225, 0.7);
 }
 
-footer #contact-details a{
+footer #footer-contact a{
     font-size: 22px;
     color: black;
     transition: transform 0.5s;
 
 }
 
-#contact-details a:hover, #contact-details a:focus{
+#footer-contact a:hover, #footer-contact a:focus{
     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
                 inset 4px 4px 6px -1px rgba(225, 225, 225, 0.7),
                 0.5px 0.5px 0px rgba(225, 225, 225, 1),
@@ -152,20 +166,26 @@ footer #contact-details a{
     transform: translateY(2px);
 }
 
-#contact-details a:hover i{
+#footer-contact a:hover i{
     transform: scale(0.90);
 }
+
 a:hover .fa-twitter, a:focus .fa-twitter, a:active .fa-twitter{
     color: #00acee;
 }
-a:hover .fa-linkedin, a:focus .fa-linkedin, a:active .fa-linkedin{
+a:hover .fa-linkedin-in, a:focus .fa-linkedin-in, a:active .fa-linkedin-in{
     color: #0072b1;
 }
 a:hover .fa-github , a:focus .fa-github, a:active .fa-github {
     color: #000;
 }
 
-footer h3{
-    text-align: center;
-    font-size: 1.1em;
+a:hover .fa-skype, a:focus .fa-skype, a:active .fa-skype{
+    color: #00acee;
+}
+a:hover .fa-phone, a:focus .fa-phone, a:active .fa-phone{
+    color: #34A853;
+}
+a:hover .fa-envelope-square , a:focus .fa-envelope-square, a:active .fa-envelope-square {
+    color: #BB001B;
 }
