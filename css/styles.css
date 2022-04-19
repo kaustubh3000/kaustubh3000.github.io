@@ -14,7 +14,7 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background-color: #28668F;
+    background-color: #272829;
     color: floralwhite;
     border-radius: 0px;
 }
@@ -31,7 +31,7 @@ body{
 }
 
 .navbar-dark {
-    background-color: #28668F;
+    background-color: #272829;
 }
 
 .navbar-brand h1{
@@ -77,8 +77,8 @@ body{
 
 #main-photo{
     width: 150px;
-    border-radius: 2em;
-    border: solid white 2px;
+    border-radius: 3em;
+    border: solid rgba(255, 255, 255, .2) 4px;
     margin-bottom: 20px;
 
    
