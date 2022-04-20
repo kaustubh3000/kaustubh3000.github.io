@@ -43,6 +43,11 @@ body{
     height: 40px;
 }
 
+/* .nav-link.active{
+    color: #18d26e !important;
+}
+ */
+ 
 .close{
     font-size: 2em;
     color: white;
@@ -69,16 +74,18 @@ body{
     left: 0;
 }
 
-
+.color-green{
+    color: #18d26e;
+}
 
 
 
 /* photo */
 
 #main-photo{
-    width: 150px;
-    border-radius: 3em;
-    border: solid rgba(255, 255, 255, .2) 4px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, .2) 8px;
     margin-bottom: 20px;
 
    
@@ -135,7 +142,8 @@ footer{
 }
 
 footer hr{
-    background-color: #023E8A;
+    background-color: #149ddd;
+    height: 2px;
     width: 100%;
 }
 
