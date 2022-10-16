@@ -19,6 +19,23 @@
     border-radius: 0px;
 }
 
+.jumbotron h1{
+    font-size: 4em;
+}
+.jumbotron p{
+    font-size: 2em;
+}
+
+.jumbotron .typed{
+    text-underline-offset: 8px;
+    text-decoration: underline;
+}
+
+.jumbotron .typed-cursor{
+    color: #00acee;
+}
+
+
 
 body{
     padding: 50px 0px 0px 0px;
@@ -76,6 +93,10 @@ body{
 
 .color-green{
     color: #18d26e;
+}
+
+.color-blue{
+    color: #00acee;
 }
 
 
