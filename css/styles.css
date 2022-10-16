@@ -168,6 +168,35 @@ footer hr{
     width: 100%;
 }
 
+/* About Specific Desing */
+
+.about-content{
+    background: #f8f9fa;
+    box-shadow:  7px 7px 29px #9a9a9b,
+             -7px -7px 29px #ffffff;
+    align-items: center;
+    border-radius: 25px;
+    min-height: 350px;
+    justify-content: center;
+}
+
+.about-div{
+    min-width: 300px;
+    max-height: fit-content;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 4px #d0d1d2,
+            inset -5px -5px 4px #ffffff;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
 
 
 /* NeoMorphic style Icons*/
