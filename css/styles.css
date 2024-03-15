@@ -322,7 +322,7 @@ a:active .fa-envelope-square {
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #34b7a7;
+    border-left: 2px solid #00acee;
     position: relative;
 }
 
@@ -330,8 +330,8 @@ a:active .fa-envelope-square {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #1d685f;
+
+    color: #00acee;
     margin-bottom: 10px;
 }
 
@@ -342,7 +342,7 @@ a:active .fa-envelope-square {
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #34b7a7;
+    color: #00acee;
 }
 
 .resume .resume-item ul {
@@ -366,5 +366,5 @@ a:active .fa-envelope-square {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #34b7a7;
+    border: 2px solid #00acee;
 }
